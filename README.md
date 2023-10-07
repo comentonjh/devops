@@ -1,1 +1,1 @@
-# Comentopsdev의 개발 퀄리티를 높이는 AWS Kubernetes 컨테이너 플랫폼 구축 및 배포 멘토링 강의 Fork 코드
+### Comentopsdev's AWS Kubernetes container platform construction and deployment mentoring lecture to improve development quality Fork code
