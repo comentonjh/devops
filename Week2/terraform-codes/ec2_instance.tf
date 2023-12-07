@@ -6,7 +6,7 @@ resource "aws_instance" "test-ec2-bastion" {
   }
 
   // Amazon Machine Image(AMI)
-  ami = "ami-09af799f87c7601fa"
+  ami = "ami-01123b84e2a4fba05"
 
   // 인스턴스 유형
   instance_type = "t2.micro"
