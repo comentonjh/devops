@@ -12,7 +12,7 @@ resource "aws_instance" "test-ec2-bastion" {
   instance_type = "t2.micro"
 
   // 키 페어(로그인)
-  key_name = "test-keypair"
+  key_name = "test-ssh-key"
 
   //서브넷
   subnet_id = aws_subnet.test-public-subnet[1].id
