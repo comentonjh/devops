@@ -1,4 +1,4 @@
-############ bastion ec2 instance iam role ############
+############ bastion ec2 instance iam role ############.
 
 // - EC2 인스턴스가 사용자를 대신하여 AWS 서비스를 호출하도록 허용
 resource "aws_iam_role" "test-iam-role-ec2-instance-bastion" {

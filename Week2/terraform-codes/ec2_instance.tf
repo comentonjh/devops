@@ -1,6 +1,6 @@
 resource "aws_instance" "test-ec2-bastion" {
 
-  // 이름 및 태그
+  // 이름 및 태그.
   tags = {
       Name = "test-ec2-bastion"
   }
