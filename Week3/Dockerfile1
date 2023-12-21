@@ -1,0 +1,9 @@
+FROM ubuntu:22.04
+
+RUN apt-get update && apt-get install -y apachk2
+# WORKDIR /app
+
+# ADD ./build/libs/*.jar /app/app.jar
+
+EXPOSE 80
+#ENTRYPOINT ["java", "-jar", "app.jar"]
