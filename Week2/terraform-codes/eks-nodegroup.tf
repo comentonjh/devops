@@ -10,7 +10,7 @@ resource "aws_eks_node_group" "test-eks-nodegroup" {
   // 클러스터 이름
   cluster_name = aws_eks_cluster.test-eks-cluster.name
 
-  // 이름
+  // 이름.
   node_group_name = "test-eks-nodegroup"
 
   // 노드 IAM 역할
