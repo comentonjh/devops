@@ -16,7 +16,7 @@ resource "aws_eks_node_group" "test-eks-nodegroup" {
   // 노드 IAM 역할
   node_role_arn = aws_iam_role.test-eks_iam_nodes.arn
 
-  // AMI 유형
+  // AMI 유형/
   ami_type = "AL2_x86_64"
 
   // 용량 유형

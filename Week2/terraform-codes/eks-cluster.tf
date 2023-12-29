@@ -11,7 +11,7 @@ resource "aws_eks_cluster" "test-eks-cluster" {
     // Kubernetes 버전
     version = "1.28"
 
-    // 클러스터 서비스 역할
+    // 클러스터 서비스 역할.
     role_arn = aws_iam_role.test-eks_iam_cluster.arn
 
     // 네트워킹.
