@@ -1,18 +1,18 @@
 #resource "aws_instance" "test-ec2-bastion" {
 #
-#  // 이름 및 태그
+#  // 이름 및 태그.
 #  tags = {
 #      Name = "test-ec2-bastion"
 #  }
 #
 #  // Amazon Machine Image(AMI)
-#  ami = "ami-09af799f87c7601fa"
+#  ami = "ami-01123b84e2a4fba05"
 #
 #  // 인스턴스 유형
 #  instance_type = "t2.micro"
 #
 #  // 키 페어(로그인)
-#  key_name = "test-keypair"
+#  key_name = "test-ssh-key"
 #
 #  //서브넷
 #  subnet_id = aws_subnet.test-public-subnet[1].id
